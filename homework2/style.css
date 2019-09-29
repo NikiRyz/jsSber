@@ -1,0 +1,111 @@
+.black_overlay{
+	display: none;
+    position: absolute;
+    top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 110vh;
+	background-color:black;
+    z-index:1001;
+	opacity: 0.7;
+}
+
+.envelope {
+	display: none;
+	width: 50%;
+	height: 95vh;
+	z-index:1002;
+	position: relative;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.envelope input{
+    border-radius: 1em;
+    width: 80%;
+    height: 2.3em;
+    margin: 0.8em;
+    display: inline-block;
+    padding-left: 2em;
+}
+
+.envelope .consent{
+    width: auto;
+    text-align: left;
+    
+    
+
+}
+label{
+    
+    display: inline;
+  
+}
+.r{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.FormHeader{
+   width: 100%;
+    height: 4em;
+    display: inline-block;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+   
+    
+ 
+}
+
+a{
+   
+    text-decoration: none;
+   
+}
+
+.FormButtonRight{
+    height: 2em;
+    width: 50%;
+    border: 0;
+    background-color:orange;
+    padding-top: 3%;
+    font-size: 1.3em;
+    float: left; 
+    border-top-right-radius: 1em;
+    color: brown;
+   
+}
+
+.FormButtonLeft{
+    height: 2em;
+    width: 50%;
+    border: 0;
+    background-color:orange;
+    padding-top: 3%;
+    font-size: 1.3em;
+    float: left; 
+    border-top-left-radius: 1em;
+    color: brown;
+    
+}
+
+
+.FormButtonLeft:hover{
+    background-color: white ;
+}
+
+.FormButtonRight:hover{
+    background-color: white ;
+}
+
+.btn{
+    background-color: yellow;
+    color: brown;
+    
+}
