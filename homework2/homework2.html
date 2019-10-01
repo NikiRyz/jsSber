@@ -1,56 +1,88 @@
-
-
 <!DOCTYPE html>
 <html>
-   <head>
-      <link rel="stylesheet" href="form.css" />
-      <meta charset="UTF-8">
-      <title>Регистрация</title>
-   </head>
-   <body>
-      <a class="show-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='block';document.getElementById('fade').style.display='block'">Регистрация</a>
-      <div id="envelope" class="envelope">
-         <form method="post" action="">
+
+<head>
+
+    <!-- <script src="https://use.fontawesome.com/fda3909b63.js"></script> -->
+
+    <link rel="stylesheet" href="form.css" />
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+
+<body>
+
+    <script src="https://use.fontawesome.com/fda3909b63.js"></script>
+
+
+
+    <a class="show-btn" href="javascript:void(0)"
+        onclick="document.getElementById('envelope').style.display='block';document.getElementById('fade').style.display='block'">Регистрация</a>
+    <div id="envelope" class="envelope">
+
+        <form method="post" action="">
             <div class="FormHeader">
-               <a href="">
-                  <div class="FormButtonLeft">Я СТУДЕНТ </div>
-               </a>
-               <a href="">
-                  <div class="FormButtonRight">Я ОРГАНИЗАЦИЯ </div>
-               </a>
+                <a href="">
+                    <div class="FormButtonLeft">Я СТУДЕНТ </div>
+                </a>
+                <a href="">
+                    <div class="FormButtonRight">Я ОРГАНИЗАЦИЯ </div>
+                </a>
+
             </div>
             <div class="form-group ">
-               <input type="email" name="email" placeholder="Почта">
-            </div>
-            <div class="form-group ">  
-               <input type="password" name="password" placeholder="Пароль">
-            </div>
-            <div class="form-group ">
-               <input type="password" name="password" placeholder="Повторите пароль">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                <input type="email" name="email" placeholder="Почта">
             </div>
             <div class="form-group ">
-               <input name="surname" placeholder="Фамилия">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <input type="password" name="password" placeholder="Пароль">
             </div>
             <div class="form-group ">
-               <input name="name" placeholder="Имя">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <input type="password" name="password" placeholder="Повторите пароль">
             </div>
             <div class="form-group ">
-               <input name="midlle_name" placeholder="Отчетсво">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                <input name="surname" placeholder="Фамилия">
             </div>
             <div class="form-group ">
-               <input type="tel" name="phone" placeholder="Телефон">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                <input name="name" placeholder="Имя">
+            </div>
+            <div class="form-group ">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+                <input name="midlle_name" placeholder="Отчетсво">
+            </div>
+            <div class="form-group ">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+
+                <input type="tel" name="phone" placeholder="Телефон">
             </div>
             <div class="r"> <input type="checkbox" name="consent" class="consent">
-               <label class="consent" id="consent">
-               Я согласен с <a href="">политикой конфиденциальности </a>
-               </label>
-            </div>
-            <input id="btn" type="submit" value="Зарегистрироваться">
-         </form>
-      </div>
-      <a class="close-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='none';document.getElementById('fade').style.display='none'">
-         <div id="fade" class="black_overlay"></div>
-      </a>
-   </body>
-</html>
+                <label class="consent" id="consent">
+                    Я согласен с <a href="">политикой конфиденциальности </a>
+                </label></div>
 
+
+
+            <input id="btn" type="submit" value="Зарегистрироваться">
+
+        </form>
+
+
+    </div>
+    <a class="close-btn" href="javascript:void(0)"
+        onclick="document.getElementById('envelope').style.display='none';document.getElementById('fade').style.display='none'">
+        <div id="fade" class="black_overlay"></div>
+    </a>
+
+
+
+</body>
+
+</html>
